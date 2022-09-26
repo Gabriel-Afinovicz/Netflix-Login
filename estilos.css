@@ -1,0 +1,90 @@
+    #body{
+        background-color: rgb(26, 26, 26);
+    }
+
+    #logo{
+        position: relative;
+        height: 20%;
+        width: 20%;
+        top: 100px;
+        left: 570px;
+    }
+    #label{
+        position: relative;
+        color: rgb(53, 52, 52);
+        font-size: 30px;
+        left: 375px;
+        top: 100px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        
+    }
+
+    p{
+        position: relative;
+        text-align: center;
+        color: rgb(61, 61, 61);
+        top: 360px;
+    }
+
+    #subfundo{
+        position: relative;
+        background-color: rgb(20, 20, 20);
+        height: 400px;
+        width: 400px;
+        top: 100px;
+        left: 510px;
+        color: rgb(59, 59, 59);
+        border-radius: 20px;
+    }
+
+    #form{
+        position: fixed;
+        top: 30px;
+    }
+
+    input[type=text]{
+        position: relative;
+        color: white;
+        height: 30px;
+        width: 250px;
+        left: 200px;
+        top: 140px;
+        background-color: rgb(59, 59, 59);
+        border: 0px;
+        border-radius: 5px;
+        border: none;
+        border-bottom: 2px solid red;
+    }
+
+    input[type=password]{
+        position: relative;
+        color: white;
+        height: 30px;
+        width: 250px;
+        left: -57px;
+        top: 190px;
+        background-color: rgb(59, 59, 59);
+        border: 0px;
+        border-radius: 5px;
+        border: none;
+        border-bottom: 2px solid red;
+    }
+
+    input[type=submit]{
+        position: relative;
+        background-color: rgb(58, 58, 58);
+        color: rgb(138, 138, 138);
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 17px;
+        top: 240px;
+        right: 225px;
+    }
+
+    input[type=submit]:hover {
+        position: relative;
+        color: rgb(138, 138, 138);
+        border-bottom: 2px solid red;
+        border-radius: 5px;
+    }
